@@ -1,0 +1,39 @@
+.infoBanner {
+    display: flex;
+    justify-content: center;
+    background-color: #960047;
+}
+
+.infoBanner em {
+    color: white;
+}
+
+.customNavbar {
+    color: #111110;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 3em;
+    background-color: #faeddf;
+}
+
+.customNavbar ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 3em;
+    margin: 0;
+}
+
+.customNavbar ul>li {
+    list-style-type: none;
+    margin: 0.5em;
+}
+
+ /*to do: de pus toaate textele din Navbar in elemente 
+ de tip "anchor" (<a>)*/
+ /* de stilizat toate elementele de tip "anchor" ca sa aiba
+  textul de culoarea setata in Navbar #111110*/
+  /* de stilizat toate elementele de tip "anchor 
+  sa fie subliniate doar cand se face HOVER deasupra lor" */
