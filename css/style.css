@@ -66,12 +66,16 @@ h1 {
     margin-right: 1em;
 }
 
+.productCard img {
+    border-radius: 0.375rem 0.375rem 0 0;
+}
+
 .productsListContainer {
     display: flex;
     flex-direction: row;
     flex-wrap : wrap;
     align-items: center;
     justify-content: center;
-
+    background-color: #f38b54;
 }
 
