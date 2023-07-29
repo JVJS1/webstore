@@ -60,9 +60,18 @@ h1 {
     font-size: 5em !important;
 }
 
- /*to do: de pus toate textele din Navbar in elemente 
- de tip "anchor" (<a>)*/
- /* de stilizat toate elementele de tip "anchor" ca sa aiba
-  textul de culoarea setata in Navbar #111110*/
-  /* de stilizat toate elementele de tip "anchor 
-  sa fie subliniate doar cand se face HOVER deasupra lor" */
+.productCard {
+    width: 350px;
+    margin-bottom: 1em;
+    margin-right: 1em;
+}
+
+.productsListContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap : wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
