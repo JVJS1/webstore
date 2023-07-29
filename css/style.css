@@ -31,7 +31,20 @@
     margin: 0.5em;
 }
 
- /*to do: de pus toaate textele din Navbar in elemente 
+a:link, a:visited {
+    text-decoration: none;
+    color: #111110;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#logo {
+    margin-top: 120px;
+}
+
+ /*to do: de pus toate textele din Navbar in elemente 
  de tip "anchor" (<a>)*/
  /* de stilizat toate elementele de tip "anchor" ca sa aiba
   textul de culoarea setata in Navbar #111110*/
