@@ -44,6 +44,22 @@ a:hover {
     margin-top: 120px;
 }
 
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 5em);
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 5em !important;
+}
+
  /*to do: de pus toate textele din Navbar in elemente 
  de tip "anchor" (<a>)*/
  /* de stilizat toate elementele de tip "anchor" ca sa aiba
